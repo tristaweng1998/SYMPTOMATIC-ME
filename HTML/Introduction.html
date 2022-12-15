@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/portal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Cormorant+Garamond:wght@700&family=Esteban&family=Georama&family=Lato&family=Lustria&family=Oswald&family=Palanquin:wght@600&family=Proza+Libre&family=Roboto&family=Varta&display=swap" rel="stylesheet">
+
+
+    <!--Internal Stylesheet-->  
+    <style>  
+    body {background-image: url(../Background/Background-introduction.jpg)}
+    #p1 {height: 26vh; width: 64vw; top: 13vh; left:18vw;}
+    #p2 {height:10vh; width: 64vw; top:45vh;left:18vw;}
+    #p3 { height: 16vh; width: 64vw; top:65vh; left:18vw;}
+
+    p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Varta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 3vw;
+    letter-spacing: 0.05em;}
+
+    #welcome {
+    font-size: 1.6vw;
+    line-height: 5vw;
+    }
+
+    #underlined:hover{
+    text-decoration: underline;}
+
+    #not:hover {
+    color: transparent;
+    text-shadow: 0 0 0.3vw gainsboro;}
+
+    a.introduction:hover{
+    text-decoration: underline;}
+
+    </style>
+</head>
+
+<body>
+
+<div class="fixedWords" id="p1">
+
+<p>
+
+<span id="welcome">WELCOME</span>,<br>
+to the memories of me, of China's Zero-Covid Policy, and of me and Zero-Covid Policy. <br>
+You can choose where you like to go by clicking on 
+<button type="button" class="introduction" onclick="document.getElementById('p2').style.display='block'">memory portals</button>.<br>
+Most of them are <span id="underlined">underlined words,</span> 
+while <span id="not">others are not.</span>
+
+</p>
+</div>
+
+
+<div class="fixedWords" id="p2" style="display:none;">
+<p> 
+And you may not have too many <button type="button" class="introduction" onclick="document.getElementById('p3').style.display='block'">choices</button>. 
+</p>
+</div>
+
+
+<div class="fixedWords" id="p3" style="display:none">
+<p>
+Still, I promise you everything you are to read is true to my feelings, if not all true facts.<br>
+And I treasure this moment that you share with <a class="introduction" href="01.html">me</a>.
+
+</p>
+
+</div>
+
+
+</body>
+</html>

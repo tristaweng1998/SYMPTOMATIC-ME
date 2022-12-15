@@ -1,0 +1,118 @@
+#enter,#start { 
+    border: none;
+    background-color: transparent;
+    color:inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration-line: none;
+    cursor:pointer;
+}
+
+#enter:hover,#start:hover{
+    color:whitesmoke;
+    text-decoration-line: none;
+    text-shadow: 0 0 2vw gainsboro, 0 0 1vw whitesmoke;
+    }
+
+.introduction {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow:0 0 0.1vw white;
+}
+
+.introduction:hover {
+    cursor: pointer;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow:0.05vw 0.05vw 0.35vw gainsboro, -0.03vw 0.01vw 0.5vw gainsboro;
+}
+
+/* Intro -------------------------- Main */
+
+a.passage {
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration:underline;
+    text-shadow:0 0 0.07vw white;
+}
+
+a.passage:hover {
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: inherit;
+    text-decoration:none;
+    text-transform: capitalize;
+    text-shadow:0.04vw 0.04vw 0.25vw gainsboro, -0.02vw 0.01vw 0.4vw gainsboro;
+}
+
+a.changePage{
+    position: absolute; 
+    color: rgba(171, 171, 171, 0.7);
+    font-family: 'Esteban', serif;
+    font-weight:normal;
+    font-style: normal;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+a.changePage:hover{
+    color:rgb(222, 222, 222);
+    text-shadow:0.04vw 0.04vw 0.25vw wheat, -0.02vw 0.01vw 0.4vw wheat;
+    font-size: 1.3vw;
+}
+
+
+
+/* Main -------------------------- Specials */
+
+
+
+
+
+
+
+
+/* Specials -------------------------- Icons */
+
+button.material-icons {
+    position: absolute;
+    justify-content: center;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    width: 3vw;
+    height: 3vw;
+    color:rgba(255, 255, 255, 0.3);
+    font-family: 'Material Icons';
+    font-weight:normal;
+    font-style: normal;
+    font-size: 2.5vw;
+}
+
+button.material-icons:hover{
+    color:rgba(255, 255, 255, 0.5);
+    text-shadow:0.04vw 0.04vw 0.25vw gainsboro, -0.02vw 0.01vw 0.4vw gainsboro;
+}
+
+#arrow_back {left:2vw;top: 2vh; cursor: w-resize;}
+#fullscreen {left:95vw;top: 2vh;cursor: nesw-resize;}

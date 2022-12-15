@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptomatic Me</title>
+
+    <!--Start Mode-->
+   <script>
+   var elem = document.documentElement;
+    function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+  function change(){
+    document.getElementById("h3").style.display= 'none';
+    document.getElementById("h3-2").style.display= 'block';
+  }
+
+  function start() {
+    document.getElementById("h1").style.display= 'none';
+    document.getElementById("h2").style.display= 'none';
+    document.getElementById("h3-2").style.display= 'none';
+    document.getElementById("body").style.backgroundImage= 'none';
+    document.getElementById("body").style.backgroundColor= 'black';
+    document.getElementById("iframe").style.display = 'block';
+  }
+
+ </script>
+      
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/portal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika&family=Cormorant+Garamond:wght@700&family=Esteban&family=Georama&family=Lato&family=Lustria&family=Oswald&family=Palanquin:wght@600&family=Proza+Libre&family=Roboto&family=Varta&display=swap" rel="stylesheet">
+
+    <!--Internal Stylesheet-->  
+   <style>   
+
+    body {background-image: url(../Background/Background-title.jpg)}
+    #h1 {height: 13vh; width: 48vw; top:42vh; left:15vw;}
+    img {height: 13vh; width: 48vw;}
+    #h2 {height:5vh; width: 34vw; top:75vh; left:42vw;}
+    #h3{height: 3vh;width: 4vw; top:8vh; left:90vw;}
+    #h3-2{height: 3vh;width: 4vw; top:8vh; left:90vw; display: none;}
+   
+    h2 {
+    color: whitesmoke;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 2.1vw;
+    text-align: center;
+    text-shadow:0.2vw 0.2vw 0.2vw #615c49;}
+
+    h2:hover{
+    color:rgb(222, 222, 222);
+    text-shadow: 0.1px 0.1px 0.2px grey, 0 0 5vw gainsboro, 0 0 3vw whitesmoke;
+    }
+
+    h3 {
+    color:gray;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.25vw;
+    text-align: center;
+}
+    </style>
+
+</head>
+
+
+<body id="body">
+  
+  <div class="fixedWords" id="h1">
+  <img src="../Archive/Title.gif" alt="Title">
+</div>
+
+<div class="fixedWords" id="h2">
+  <h2>A Memory Project by Trista Weng</h2>
+</div>
+
+<div class="fixedWords" id="h3">
+   <h3><button type="button" id="enter" onclick="openFullscreen(); change()">
+    ENTER</button></h3>
+</div>
+
+<div class="fixedWords" id="h3-2">
+  <h3><button type="button" id="start" onclick="start();">
+   START</button></h3>
+</div>
+
+
+<iframe src="Introduction.html" title="iframe" id="iframe"></iframe>
+
+
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img, video {
+    object-fit: contain;}
+
+iframe{
+    display: none;
+    position: absolute;
+    border: none;
+    margin: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* General -------------------------- Text */
+
+div.fixedWords{
+    /*border: solid white;*/
+     display: flex;
+     position: fixed;
+     justify-content: center;
+    }
+
+
+div.passage{
+    /*border: solid white;*/
+    display: flex;
+    position: absolute;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: center;
+    width: 62vw;
+}
+
+div.title{
+    /*border: solid white;*/
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    width: 60vw;
+    height:6vh;
+
+    color:white;
+    font-family: 'Lustria', serif;
+    text-align: center;
+    font-style:normal;
+    font-weight:lighter;
+    font-size: 1.4vw;
+    letter-spacing: 0.05em; 
+}
+
+div.text{
+    /*border: solid white;*/
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    width: 60vw;
+    top:11vh;
+
+    color:white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-style:normal;
+    font-weight:lighter;
+    font-size: 1.2vw;
+    line-height: 2.3em;
+    letter-spacing: 0.05em; 
+    text-indent: 2em;
+}
+
+div.poem{
+    /*border: solid white;*/
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    align-items: center;
+    width: 55vw;
+
+    color:white;
+    font-family: 'Andika', sans-serif;
+    text-align: center;
+    font-style:italic;
+    font-weight:lighter;
+    font-size: 1.2vw;
+    line-height: 2em;
+    letter-spacing: 0.05em; 
+    text-indent: 2em;
+}
+
+div.text-absolute{
+    /*border: solid white;*/
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    align-items: center;
+
+    color:white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-style:normal;
+    font-weight:lighter;
+    font-size: 1.2vw;
+    line-height: 2.3em;
+    letter-spacing: 0.05em; 
+    text-indent: 2em;
+}
+
+#wailingWallComments{
+     /*border: solid white;*/
+     display: flex;
+     position: absolute;
+     flex-flow: column nowrap;
+     justify-content: flex-start;
+     justify-items: flex-end;
+     align-content: center;
+     align-items: center;
+     overflow: scroll;
+ 
+     color:rgba(255, 255, 255, 0.85);
+     font-family: 'Andika', sans-serif;
+     text-align:left;
+     font-style:normal;
+     font-weight:normal;
+     font-size: 1.1vw;
+     line-height: 1.5em;
+     letter-spacing: 0.05em; 
+     text-indent: 2em;          
+}
+
+/* Text -------------------------- Media */
+
+div.illustration{
+    /*border: solid white;*/
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+div.media{
+    /*border: solid white;*/
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-items: space-between;
+    justify-content: space-between;
+    align-items: space-between;   
+    align-content: space-between;
+}
+
+div.caption{
+    /*border: solid white;*/
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Georama', sans-serif;
+    text-align: center;
+    font-style:normal;
+    font-weight:normal;
+    font-size: 0.9vw;
+    line-height: 1.5em;
+    letter-spacing: 0.05em; 
+    text-indent: 2em;
+
+}
+
+div.media-absolute{
+    /*border: solid white;*/
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;   
+    align-content: center;
+}
+
+div.caption-absolute{
+     /*border: solid white;*/
+     display: flex;
+     position: absolute;
+     flex-wrap: wrap;
+     justify-content: center;
+ 
+     color: rgba(255, 255, 255, 0.7);
+     font-family: 'Georama', sans-serif;
+     text-align: center;
+     font-style:normal;
+     font-weight:normal;
+     font-size: 0.9vw;
+     line-height: 1.5em;
+     letter-spacing: 0.05em; 
+     text-indent: 2em;
+ 
+}
+
+/* Media -------------------------- Others */
+
+div.bottom{
+    /*border: solid white;*/
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+}
+
+
+
+
